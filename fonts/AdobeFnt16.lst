@@ -1,0 +1,157 @@
+%!Adobe-FontList 1.16
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AGaramondLT-Regular
+FamilyName:AGaramond LT
+StyleName:Regular
+FullName:Adobe Garamond LT Regular
+MenuName:AGaramond LT
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Mijn afbeeldingen\Covers\Shaman's Harvest\2014 Smokin' Hearts & Broken Guns (M_7435)\Package\M74352_CD_SH-SHBG_digisleeveUS Folder\Document fonts\Adobe Garamond LT Regular_1.ttf
+DataFormat:sfntData
+FileLength:129464
+FileModTime:1031230508
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Adobe Garamond LT Regular
+NameArray:0,Win,1,AGaramond LT
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AGaramond-SemiboldSC
+FamilyName:AGaramond RegularSC
+StyleName:Bold
+FullName:Adobe Garamond Semibold Small Caps & Oldstyle Figures
+MenuName:AGaramond RegularSC
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:D:\Mijn afbeeldingen\Covers\Shaman's Harvest\2014 Smokin' Hearts & Broken Guns (M_7435)\Package\M74352_CD_SH-SHBG_digisleeveUS Folder\Document fonts\Adobe Garamond Semibold Small Caps & Oldstyle Figures_1.ttf
+DataFormat:sfntData
+FileLength:106820
+FileModTime:1031303452
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Adobe Garamond Semibold Small Caps & Oldstyle Figures
+NameArray:0,Win,1,AGaramond RegularSC
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:DiscMakersFont1105
+FamilyName:DiscMakersFont1105
+StyleName:Regular
+FullName:DiscMakersFont1105
+MenuName:DiscMakersFont1105
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Mijn afbeeldingen\Covers\Shaman's Harvest\2014 Smokin' Hearts & Broken Guns (M_7435)\Package\M74352_CD_SH-SHBG_digisleeveUS Folder\Document fonts\DiscMakersFont_1.ttf
+DataFormat:sfntData
+FileLength:44328
+FileModTime:1131115824
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,DiscMakersFont1105
+NameArray:0,Win,1,DiscMakersFont1105
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+FullName:Minion Pro
+MenuName:Minion Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Mijn afbeeldingen\Covers\Shaman's Harvest\2014 Smokin' Hearts & Broken Guns (M_7435)\Package\M74352_CD_SH-SHBG_digisleeveUS Folder\Document fonts\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:218640
+FileModTime:1398978406
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MyriadPro-SemiboldCond
+FamilyName:Myriad Pro
+StyleName:Semibold Condensed
+FullName:Myriad Pro Semibold Condensed
+MenuName:Myriad Pro Light Cond
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:D:\Mijn afbeeldingen\Covers\Shaman's Harvest\2014 Smokin' Hearts & Broken Guns (M_7435)\Package\M74352_CD_SH-SHBG_digisleeveUS Folder\Document fonts\MyriadPro-SemiboldCond_2.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:79040
+FileModTime:978310800
+WeightClass:600
+WidthClass:3
+AngleClass:0
+NameArray:0,Mac,18,Myriad Pro Semibold Cond
+NameArray:0,Mac,4,Myriad Pro Semibold Condensed
+NameArray:0,Win,1,Myriad Pro Light Cond
+NameArray:0,Win,16,Myriad Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Square721BT-RomanCondensed
+FamilyName:Square721 Cn BT
+StyleName:Roman
+FullName:Square 721 Condensed BT
+MenuName:Square721 Cn BT
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Mijn afbeeldingen\Covers\Shaman's Harvest\2014 Smokin' Hearts & Broken Guns (M_7435)\Package\M74352_CD_SH-SHBG_digisleeveUS Folder\Document fonts\Square 721 Condensed BT_0.ttf
+DataFormat:sfntData
+FileLength:39636
+FileModTime:510013260
+WeightClass:400
+WidthClass:3
+AngleClass:0
+NameArray:0,Mac,4,Square 721 Condensed BT
+NameArray:0,Win,1,Square721 Cn BT
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Swiss721CondensedBT
+FamilyName:Swiss 721 Condensed BT
+StyleName:Regular
+FullName:Swiss 721 Condensed BT
+MenuName:Swiss 721 Condensed BT
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Mijn afbeeldingen\Covers\Shaman's Harvest\2014 Smokin' Hearts & Broken Guns (M_7435)\Package\M74352_CD_SH-SHBG_digisleeveUS Folder\Document fonts\Swiss 721 Condensed BT_3.ttf
+DataFormat:sfntData
+FileLength:47584
+FileModTime:510013260
+WeightClass:400
+WidthClass:3
+AngleClass:0
+NameArray:0,Mac,4,Swiss 721 Condensed BT
+NameArray:0,Win,1,Swiss 721 Condensed BT
+%EndFont
+

@@ -1,0 +1,78 @@
+@font-face{
+	font-family: 'square';
+	src: url('../fonts/swiss.ttf');
+	src: url('../fonts/swiss.ttf') format('truetype');
+}
+
+#main {
+
+	background: url('../images/clear.png') center center no-repeat;
+	opacity: 1;
+	height: 800px;
+	-webkit-filter: blur(10px);
+	margin: 0;
+	padding: 0;
+	transition: -webkit-filter 1.5s;
+
+	h1 {
+		font-family: 'EB Garamond', serif;
+		color: rgb(166,167,106);
+		text-shadow: 2px 2px black;
+		font-size: 3.5em !important;
+	}
+}
+
+.clean {
+	-webkit-filter: blur(0px) !important;
+}
+
+#overlay {
+
+	background: rgba(0,0,0,.8);
+	background-size: cover;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	opacity: 1;
+		h1 {
+			font-family: 'EB Garamond', serif;
+			color: white;
+			text-shadow: 2px 2px black;
+			font-size: 5em !important;
+		}
+		#underline {
+			position: relative;
+			left: 50%;
+			margin-left: -200px;
+			height: 50px;
+			width: 400px;
+			padding: 10px;
+		}
+		
+		#album-title {
+			font-family:'square', sans-serif !important;
+			margin-top: 20px;
+			color: white;
+			text-shadow: 2px 2px black;
+			font-size: 3em !important; 
+		}
+		
+		#medallion {
+			display: block;
+			position: relative;
+			left: 50%;
+			margin-top: 20px;
+			margin-left: -151px;
+			border-radius: 50%;
+		}
+
+		#enter {
+			font-family:'square', sans-serif !important;
+			color: white;
+			font-size: 30px;
+			font-style: italic;
+			-webkit-animation-delay: 1s;
+		}
+}

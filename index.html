@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Shaman's Harvest: cun3 As FucK!!!!!</title>
+	
+	<!-- META DATA -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- JS -->
+	
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	
+	<!-- CSS -->
+	
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+	<link type="text/css" rel="stylesheet" href="css/animate.css" />
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	<!-- FONTS -->
+	<link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+
+
+</head>
+<body>
+
+	<div class="wrapper">
+		
+			<div id="main">
+
+				<h1 class="text-center">
+					The New Album by <i>Shaman's Harvest</i>
+				</h1>
+
+			</div>
+
+
+	</div>
+
+	<div id="overlay">
+
+		<h1 class="text-center">Pre-order the New Album</h1>
+		
+		<img id="underline" src="images/underline.png">
+
+		<img id="medallion" src="images/white-button.png" alt="logo">
+
+		<p id="album-title" class="text-center">Smokin' Hearts and Broken Guns</p>
+		
+		<p id="enter" class="text-center animated fadeIn">Click to Enter</p>
+
+
+	</div>
+
+
+	<script type="text/javascript">
+
+		$(window).load(init);
+
+			function init() {
+
+				
+			//event listeners
+
+			//click to fade out overlay in de-blur homepage
+
+				$('#overlay').on('click', function() {
+
+					$(this).animate({'opacity':'0'}, 700);
+
+						setTimeout(function() {
+							$('#main').addClass('clean');
+
+						}, 700);
+				});
+
+
+
+
+			}
+
+	</script>
+
+</body>
+</html>
