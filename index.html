@@ -19,6 +19,7 @@
 	<link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
 	<link type="text/css" rel="stylesheet" href="css/animate.css" />
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
 	<!-- FONTS -->
 	<link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
@@ -32,41 +33,54 @@
 		
 			<div id="main">
 
-				<h1 class="text-center">
+				<h1 id="header" class="text-center">
 					The New Album by <img id="logo" src="images/logo.png">
 				</h1>
 
-				<div id="top-row" class="container">
-
-					<div class="pull-left">
-						<a href="#"><img id="bestbuy" class="stores" src="images/bestbuy.png"></a>
-					</div>
-
-					<div class="pull-right">
-						<a href="#"><img class="stores" src="images/itunes.png"></a>
-					</div>
-
+				<div id="logo-container" class="text-center container">
+					<img id="white-album" src="images/white-small.png">
 				</div>
 
-				<div id="middle-row" class="container">
+				<h2 class="text-center">
+					Smokin' Hearts and Broken Guns
+				</h2>
 
-					<div class="pull-left">
-						<a href="#"><img class="stores" src="images/amazon.png"></a>
+					<div class="wrapper text-center">
+						<div id="shop" class="jumbotron container text-center">
+							<h2 class="text-center">
+								Available Now At:
+							</h2>
+							<ul id="store-list">
+								<li class="stores"><a href="#">Bestbuy</a></li>
+								<li class="stores"><a href="#">iTunes</a></li>
+								<li class="stores"><a href="#">Amazon</a></li>
+								<li><a href="#">Mascot</a></li>
+							</ul>
+						</div>
+
 					</div>
 
-					<div class="pull-right">
-						<a href="#"><img class="stores" src="images/mascot-label.png"></a>
+					<div class="wrapper text-center">
+
+						<ul id="social-media">
+							<li><i class="fa fa-twitter"></i></li>
+							<li><i class="fa fa-facebook"></i></li>
+							<li><img style="position:relative; top:-80px; " src="images/myspace.png"></li>
+
+
+						</ul>
+
+
 					</div>
 
-				</div>
+					<div class="wrapper text-center">
 
-				<div id="bottom-row" class="container">
-
-					<div class="text-center">
-
-						Shaman's Harvest Home Page
+						<h1 id="footer"><a href="#">Shaman's Harvest Home Page</a></h1>
 
 					</div>
+
+
+
 
 				</div>
 
@@ -78,11 +92,11 @@
 
 	<div id="overlay">
 
-		<h1 class="text-center">Pre-order the New Album</h1>
+		<h1 class="text-center animated fadeInDown">Pre-order the New Album</h1>
 		
 		<img id="underline" src="images/underline.png">
 
-		<img id="medallion" src="images/dark-small.jpg" alt="logo">
+		<img id="medallion" class="animated fadeIn" src="images/dark-small.jpg" alt="logo">
 
 		<p id="album-title" class="text-center">Smokin' Hearts and Broken Guns</p>
 		
@@ -98,14 +112,18 @@
 
 			function init() {
 
+
+
 				
 			//event listeners
 
-			//click to fade out overlay in de-blur homepage
+
+			//click to fade out overlay and de-blur homepage
 
 				$('#overlay').on('click', function() {
 
 					$(this).animate({'opacity':'0'}, 700).hide(100);
+					$('#main').animate({'opacity': '1'}, 1000);
 
 
 						setTimeout(function() {

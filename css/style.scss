@@ -8,88 +8,146 @@ $Gold : rgb(166,167,106);
 
 #main {
 	position: relative;
-	background: url('../images/clear.png') 51% center no-repeat;
-	opacity: 1;
+	/*background: url('../images/clear.png') 10% center no-repeat;*/
+	background-size: auto;
+	opacity: 0;
 	height: 800px;
 	margin: 0;
 	padding: 0;
 	-webkit-filter: blur(10px);
 	transition: -webkit-filter 1.5s;
 
-	h1 {
+	#header {
 
-		position: fixed;
+		position: relative;
 		z-index: 100;
 		width: 100%;
 		font-family: 'EB Garamond', serif;
 		color: $Gold;
-		background-color: $Gold;
+		/*background-color: $Gold;*/
 		background: url('../images/spatter-black.png') -100% 10% no-repeat;
 		text-shadow:0px 2px 4px black;
 		font-size: 3.2em !important;
-		margin-top: 0;
+		margin: 0 0 0 0;
 		border-bottom: 1px solid black;
 		box-shadow: 0px 2px 2px black;
 		/*-webkit-filter: blur(1px);*/
 	}
+	#logo-container {
+		overflow-x: hidden;
+		background-color: white;
+		width: 100%;
+		margin: 0;
 
-	#top-row {
-		position: relative;
-		top: 18%;
-		padding: 10px;
-		margin-: auto;
-		font-size: 2em;
-		width: 70%;
-
-		.stores {
-			height: 120px;
+			#white-album {
+			/*overflow-x: hidden;*/
+			position: relative;
+			height: 600px;
 			width: auto;
-			opacity: .8;
-			transition: opacity .5s, height .2s;
+			transition: height .5s;
+				&:hover {
+					height: 610px;
+
+				}
+			}
+
+	}
+	h2 {
+
+		font-family: 'EB Garamond', serif;
+		font-size: 3.5em;
+		color: black;
+		text-shadow: 2px 0 2px black;
+		margin: 0 0 !important;
+		padding-bottom: 10px;
+	}
+	
+	#shop {
+		/*background: url('../images/spatter-new.png');*/
+		background-color: black;
+		box-shadow: 0px 0px 20px black;
+		width: 100%;
+		/*border-radius: 10px;*/
+		h2 {
+			color: white;
+		}
+
+		#store-list {
+		list-style-type: none;
+		padding: 0;
+		text-align: center;
+
+
+			a {
+				text-decoration: none;
+				font-family:  'EB Garamond', serif;
+				color: white;
+				font-size: 2.5em !important;
+				transition: color .5s;
+				&:hover {
+					color: $Gold;
+				}
+
+			}
 			
-			&:hover {
-				cursor: pointer;
-				height: 124px;
-				opacity: 1;
+			
+
+			}
+			.stores:after {
+				content: '' !important;
+					display: block;
+					position: relative;
+					width: 80px;
+					height: 2px;
+					left: 50%;
+					margin-top: 10px;
+					margin-left: -40px;
+					background-color: $Gold;
 			}
 
 		}
 
-	}
+		#social-media {
 
-	#middle-row {
-		position: relative;
-		top: 30%;
-		padding: 10px;
-		margin: auto;
-		font-size: 2em;
-		width: 80%;
+			list-style-type: none;
+			padding: 0 !important;
+			margin-top: 20px !important;
 
-		.stores {
-			height: 120px;
-			width: auto;
-			opacity: .8;
-			transition: opacity .5s, height .5s;
-			
-			&:hover {
-				cursor: pointer;
-				height: 130px;
-				opacity: 1;
-			}	
 
+			li {
+				height: 250px;
+				width: auto;
+				display: inline-block;
+				margin: 10px;
+				i {
+					font-size: 18em;
+					color: black;
+					padding: 0 20px;
+				}
+			}
 		}
-	}
-	#bottom-row {
-		position: relative;
-		top: 35%;
-		padding: 10px;
-		margin: auto;
-		font-size: 2em;
-		width: 100%;
+		#footer {
 
+			width: 100%;
+			background-color: black;
+			padding: 10px 0;
+			margin: 0;
+			box-shadow: 0px -2px 2px black;
+			a {
+				text-decoration: none;
+				font-family: 'EB Garamond', serif;
+				width: 100%;
+				color: white;
+				transition: color .5s;
+				&:hover {
+					color: $Gold;
+
+				}
+			}
+
+		}	
 	}
 
-}
 
 .clean {
 	-webkit-filter: blur(0px) !important;
@@ -111,6 +169,8 @@ $Gold : rgb(166,167,106);
 			color: white;
 			text-shadow: 0px 0px 4px black;
 			font-size: 5em !important;
+			-webkit-animation-delay: .5s;
+			-webkit-animation-duration: .5s;
 		}
 		#underline {
 			position: relative;
@@ -126,7 +186,8 @@ $Gold : rgb(166,167,106);
 			margin-top: 20px;
 			color: white;
 			text-shadow: 2px 2px black;
-			font-size: 3em !important; 
+			font-size: 3em !important;
+			margin-top: 40px; 
 		}
 		
 		#medallion {
@@ -136,7 +197,8 @@ $Gold : rgb(166,167,106);
 			margin-top: 20px;
 			margin-left: -151px;
 			box-shadow: 0px 0px 4px black;
-			/*border-radius: 50%;*/
+			-webkit-animation-delay: 1s;
+			-webkit-animation-duration: 1s;
 		}
 
 		#enter {
@@ -145,7 +207,9 @@ $Gold : rgb(166,167,106);
 			font-size: 30px;
 			font-style: italic;
 			text-shadow: 0px 0px 2px black;
-			-webkit-animation-delay: 1s;
+			margin-top: 40px;
+			-webkit-animation-delay: 2s;
+			-webkit-animation-duration: 2s;
 		}
 }
 
@@ -163,8 +227,8 @@ $Gold : rgb(166,167,106);
 	}
 	#underline {
 		/*height: 30px;*/
-		width: 280px;
-		margin-left: -140px;
+		width: 220px;
+		margin-left: -110px;
 	}
 	#medallion {
 		height: auto;
@@ -179,21 +243,27 @@ $Gold : rgb(166,167,106);
 	}
 }
 
-#main{
-	h1 {
-		position: static;
-		font-size: 2em !important;
-		text-shadow:0px 0px 2px black;
-		background: url('../images/spatter-black.png')left top no-repeat;
-		#logo {
-			height: 75px;
-			width: auto;
+	#main{
+		#header {
+			position: static;
+			font-size: 2em !important;
+			text-shadow:0px 0px 2px black;
+			background: url('../images/spatter-black.png')left top no-repeat;
+			#logo {
+				height: 75px;
+				width: auto;
+			}
+			.stores {
+				float: none;
+			}
 		}
-		.stores {
-			float: none;
+		#social-media{
+
+			i {
+				font-size: 15em !important;
+			}
 		}
 	}
-}
 
 
 
